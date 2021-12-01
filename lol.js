@@ -137,7 +137,7 @@ async function starts() {
             if (lol.key && lol.key.remoteJid == 'status@broadcast') return
             if (lol.key.fromMe) return
             global.prefix
-	    const ownerNumber = ["6285939888897@s.whatsapp.net"] // owner number ubah aja
+	    const ownerNumber = ["89279958287@s.whatsapp.net"] // owner number ubah aja
             const content = JSON.stringify(lol.message)
             const from = lol.key.remoteJid
             const type = Object.keys(lol.message)[0]
